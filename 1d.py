@@ -28,3 +28,4 @@ for i in axis:
     new_x = x[:, i]
     y_pred = KMeans(n_clusters=3).fit_predict(new_x)
     print(y_pred)
+
